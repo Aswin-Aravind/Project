@@ -1,0 +1,301 @@
+*{
+   padding:0;
+   margin:0; 
+   box-sizing: border-box;
+}
+
+/* .navbar{
+    background-color: white;
+    font-size: 800px;
+} */
+.nav-link{
+    color: rgb(181, 255, 102);
+    font-size: 18px; 
+    font-weight: 400;
+    cursor:pointer;
+    text-decoration: solid;
+    font: 1em sans-serif;  
+}
+.nav-link:hover{
+    background-color: rgba(255, 251, 1, 0.989);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+/* .navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+} */
+
+
+/* main section */
+
+.main{
+    background: url(/images/portfolio2.png)no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.main h6{
+    font-size: 1.5rem;
+    line-height: 1;
+    border-bottom: 2px solid rgba(230, 111, 181, 0.824);
+    width: 88%;
+}
+
+.main .bt1{
+    background-color: rgba(224, 70, 132, 0.817);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt2{
+    background-color: transparent;
+    color:  rgba(224, 70, 132, 0.817);
+    outline: none;
+    border: 1px solid  rgba(224, 70, 132, 0.817);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1:hover{
+    background-color: rgba(103, 6, 53, 0.755);
+    transition: .3s;
+}
+
+.main .bt2:hover{
+    background-color: rgba(224, 70, 132, 0.817) ;
+    transition: .3s;
+    color: white;
+}
+
+.col-lg-90{
+    margin-top: -900px;
+    margin-left: -150px;    
+}
+
+.service .col-lg-4{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.col-lg-7{
+    margin-left: 100px;
+    padding-right: 800px;
+}
+
+.about.py-5{
+    background-color: rgba(17, 17, 5, 0.984);
+}
+    
+.service.py-5{
+    background-color: rgba(108, 139, 78, 0.543);
+}
+
+.card{
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 158px -42px rgba(105,104,98,1);
+-moz-box-shadow: 0px 0px 158px -42px rgba(105,104,98,1);
+box-shadow: 0px 0px 158px -42px rgba(105,104,98,1);
+}   
+
+.circle{
+    height: 85px;
+    width: 85px;
+    font-size: 26px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgba(243, 235, 235, 0.933);
+    margin-bottom: 20px;
+    color: rgb(54, 44, 44);
+    padding: 11px;
+}
+
+.card:hover .circle{
+    background-color: black;
+    color: azure;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background-color: rgba(234, 86, 148, 0.866);
+    color: rgb(14, 207, 255);
+}
+.card:hover p{
+    color: white;
+    font-weight: bold;
+}
+
+.circle:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    padding:auto;
+}
+
+.contact .btn3{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    border:none;
+    outline: none;
+    height:55px;
+    width: 140px;
+    border-radius: 6px ;
+}
+
+
+.btn3:hover{
+    background:transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.icons{
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.icons ul{
+    padding: initial;
+}
+
+.icons ul li{
+    height: 60px;
+    width: 55px;
+    list-style-type: none;
+    padding-left: 12px;
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    color:white;
+    border-end-end-radius: 6px;
+    border-start-end-radius: 6px;
+}
+
+.icons ul li:hover{
+    padding-left: 20px;
+    width:120px;
+    transition: 0.4s;
+}
+
+.facebook{
+    background-color: #1049f5e1;
+}
+.instagram{
+    background-color: #ef4fb2e1;
+}
+.linkedin{
+    background-color: #009dffd8;
+}
+.twitter{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+.socialmedia a{
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.socialmedia a i{
+    font-size: 2em;
+    color: black;
+    opacity: 1;
+}
+
+.socialmedia a:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+.socialmedia a i:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.footernav ul li a:hover{
+    color: gold;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerbottom p{
+    color: white;
+}
+.designer{
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin: 0px 15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:rgba(126, 126, 123, 0.644);
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#034283,#9d057d);
+}
+
+#logo:hover{
+ font-weight: bold;
+}
